@@ -1,0 +1,50 @@
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjeeqTg0O2RvmlVvjEjXNpMHfpY7TqB0lTvlIExV-lOrOdS61-");
+}
+
+input {
+	display: block;
+	/*Pula linha*/
+	color: black;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.15);
+	/*outline tira a marcação da borda quando clica nela*/
+	outline: none;
+}
+
+div#corpo {
+	width: 420px;
+	margin: 80px auto 0px auto;
+}
+
+div#corpo h1 {
+	text-align: center;
+	padding: 20px;
+}
+
+a {
+	color: black;
+	/*Tirar o underline*/
+	text-decoration: none;
+	text-align: center;
+	/*Centralizando*/
+	display: block;
+	font-size: 22pt;
+}
+
+a:hover {
+	text-decoration: underline;
+	/*underline só aparece se colocar o mouse em cima*/
+}
+
+input[type=submit]:hover{
+	background-color: rgba(255,255,255,0.25);
+	border: none;
+	cursor: pointer;
+}

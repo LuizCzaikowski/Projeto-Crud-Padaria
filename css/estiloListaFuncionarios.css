@@ -1,0 +1,48 @@
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYJ0oRqjphWtIRyHueajjAzRvwjhg-xjr166hQ7F5g_hnOe3dN");
+}
+
+h1 {
+	text-align: center;
+	font-size: 28pt;
+}
+
+a {
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 10px;
+}
+
+a:hover {
+	text-decoration: underline;
+	/*underline só aparece se colocar o mouse em cima*/
+	background-color: rgba(255,255,255,0.25);
+	border: none;
+	cursor: pointer;
+}
+
+table {
+	margin: auto;
+	background-size: 100% auto;
+	width: 500px;
+}
+
+tr {
+	height: 50px;
+}
+
+table  tr th{
+	font-size: 27pt;
+	height: auto;
+	width: auto;
+}
+
+table tr td {
+	font-size: 20pt;
+	width: 100px;
+	border:1px solid black;
+}

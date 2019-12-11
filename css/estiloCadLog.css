@@ -1,0 +1,68 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	/*Arruma a borda em branco na parte de cima da tela*/
+}
+
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYCJ34Kc7kmeNTatu98xPAx8aXoo5-j6hHn9EB5cYE8SPfoJyp");
+	background-position: 0%;
+	font-family: arial;
+	/*Fundo de tela*/
+}
+input {
+	display: block;
+	/*Pula linha*/
+	color: black;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.15);
+	/*outline tira a marcação da borda quando clica nela*/
+	outline: none;
+}
+div#corpo-form {
+	width: 420px;
+	margin: 120px auto 0px auto;
+	/*Centralizar o formulário*/
+}
+
+div#corpo-form-cad {
+	width: 420px;
+	margin: 80px auto 0px auto;
+}
+
+div#corpo-form h1, div#corpo-form-cad h1{
+	text-align: center;
+	padding: 20px;
+
+}
+
+a#personalizado
+{
+	font-size: 20pt;
+}
+
+a {
+	color: black;
+	/*Tirar o underline*/
+	text-decoration: none;
+	text-align: center;
+	/*Centralizando*/
+	display: block;
+}
+
+a:hover {
+	text-decoration: underline;
+	/*underline só aparece se colocar o mouse em cima*/
+}
+
+input[type=submit]:hover{
+	background-color: rgba(255,255,255,0.25);
+	border: none;
+	cursor: pointer;
+}
